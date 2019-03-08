@@ -78,7 +78,7 @@ product for points encoded as the point_recd type.
 ......................................................................*)
 
 let dot_product_recd (p1 : point_recd) (p2 : point_recd) : int =
-  p1.x * p2.x + p1.y + p2.y ;;
+  p1.x * p2.x + p1.y * p2.y ;;
 
 (* Converting between the pair and record representations of points
 
